@@ -1,0 +1,27 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    color: darkslategrey;
+}
+
+.maintitle {
+    text-align: center;
+}
+
+h1, h2 {
+    color: darkred;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.main {
+    background-color: lightyellow;
+}
+
+
