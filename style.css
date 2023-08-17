@@ -1,14 +1,14 @@
+/* Universal Styles */
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    box-sizing: border-box;
 }
 
 body {
     color: darkslategrey;
-}
-
-.maintitle {
-    text-align: center;
+    width: 600px;
+    margin: 0px auto;
 }
 
 h1, h2 {
@@ -18,10 +18,61 @@ h1, h2 {
 img {
     width: 400px;
     height: auto;
+    margin: 0px auto;
+    display: block;
 }
 
 .main {
     background-color: lightyellow;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px auto;
+}
+
+.maintitle {
+    text-align: center;
+}
+
+
+/*  Index Page Specific Styling */
+
+
+.mainlist {
+    list-style-type: none;
+    margin: 0px auto;
+}
+
+a.reclink {
+    border: 1px solid darkred;
+    padding: 15px;
+    margin: 0px auto;
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: white;
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+}
+
+a.reclink:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Styling Each Recipe Section */
+
+.description, .ingredients, .steps{
+    background-color: wheat;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.reference {
+    background-color: wheat;
+    padding: 8px;
 }
 
 
